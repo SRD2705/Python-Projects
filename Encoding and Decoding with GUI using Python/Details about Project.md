@@ -1,4 +1,4 @@
-This is a simple but useful projects using python.
+This is a simple but useful projects using python 3.8
 The working of the script is :
   You have to input your messege and the secret key and then press encode button to encode your messege.
   Then you can send the result.(you tell the secret key secretly to your friend)
