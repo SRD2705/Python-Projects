@@ -1,4 +1,4 @@
-######################################## FACE DETECTION WITH DATABASE #########################################################
+################### FACE DETECTION WITH DATABASE ###################
 This project is a Face Detection using opencv and python.
 Libraries used:
 --> Opencv
