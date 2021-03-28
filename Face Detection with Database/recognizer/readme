@@ -1,0 +1,2 @@
+in this folder the trained dataset is stored in an .yml file.
+After running the trainning.py this data is stored and ready for recognition.
