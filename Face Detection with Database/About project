@@ -13,6 +13,30 @@ Means there are some predefined value and no database use means you can not get 
 But in this project you can add any details you want like phone Name,number,age,Gender and so on.
 We basically using sql database to store the data and retieve it when needed.
 
+INSTRUCTION:
+1.The main file neede is the 'haarcascade_frontalface_default.xml'
+  you can get the file from opencv installation folder.
+2.Create the dataset creator and store the user info in the database.
+  so, you have to create a database.In my case I use DB browser for sqlite.
+  create a table in the data base.Make id a primary key and not null attribute.
+  Add as many rows as you want.
+  
+  Now you need to connect your databse to the python program.that is shown on the code.
+  now save the user data in the database.
+3.Create trainer and train the data.Here one problem come which is faces by majority of peoples.
+  recognizer = cv2.face.LBPHFaceRecognizer_create() -----> this line gives an error.
+  The way of solution is that uninstall both opencv and opencv-contrib-python
+  then just install the opencv-cintrib-python
+  the problem is solved and no error shown
+ 4.Create the detector to detect the face and show the data.
+  Here we also need database connection.
+  
+Few important point:
+--> Always spell correct your file names and give the exact location.
+
+In this project you can get the trainning image from webcam as well as you can upload and image.
+same for the  detector.
+
 The whole project is given.
 Learn the code and implement the project.
 Hail Python!
